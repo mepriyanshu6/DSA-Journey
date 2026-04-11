@@ -1,0 +1,16 @@
+//How to get Output and Input in C++
+#include <iostream>
+using namespace std;
+int main ()
+{
+    // Output in C++
+    cout << "Hello, World!" << endl; // This will print "Hello, World!" followed by a new line
+
+    // Input in C++
+    int myNum; // Declare an integer variable
+    cout << "Enter a number: "; // Prompt the user for input
+    cin >> myNum; // Read the input from the user and store it in myNum
+    cout << "You entered: " << myNum << endl; // Output the value entered by the user
+
+    return 0;
+}
