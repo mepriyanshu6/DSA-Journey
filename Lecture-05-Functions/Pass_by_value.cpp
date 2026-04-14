@@ -10,7 +10,7 @@ its own value
 👉 Functions do NOT share variables by default
 */
 
-
+/*
 //example
 void change(int x) {
     x = 100;
@@ -70,6 +70,7 @@ Memory:
 
 //Visual stack diagram
 //Step 1:
+/*
 [ main ]
  a = 10
 
@@ -90,3 +91,4 @@ Memory:
 //Step 4:
 [ main ]
  a = 10
+ */
